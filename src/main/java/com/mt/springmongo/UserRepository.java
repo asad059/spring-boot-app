@@ -1,5 +1,5 @@
 package com.mt.springmongo;
-
+ 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
