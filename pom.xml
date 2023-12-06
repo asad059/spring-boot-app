@@ -83,6 +83,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>petapp Snapshot Nexus Repository </name>
+	      <url>http://172.31.4.21:8081/repository/petapp-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
